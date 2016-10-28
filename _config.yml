@@ -1,0 +1,9 @@
+markdown: kramdown
+kramdown: 
+permalink: /:categories/:title/
+url: http://danny.li
+author: Danny Li
+highlighter: rouge
+#safe: true
+gems: [jekyll-paginate]
+paginate: 16
