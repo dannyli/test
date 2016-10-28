@@ -7,3 +7,4 @@ highlighter: rouge
 #safe: true
 gems: [jekyll-paginate]
 paginate: 16
+#dannyli_en_google_analytics: true

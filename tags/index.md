@@ -1,6 +1,7 @@
 ---
-title: tags
+title: Tags
 layout: page
+comments: no
 ---
 
 <div id='tag_cloud'>
@@ -25,7 +26,7 @@ layout: page
 <script language="javascript">
 $.fn.tagcloud.defaults = {
     size: {start: 1, end: 1, unit: 'em'},
-      color: {start: '#a9d0f5', end: '#ff3333'}
+      color: {start: '#a9d0f5', end: '#011384'}
 };
 
 $(function () {

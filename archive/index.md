@@ -1,6 +1,6 @@
 ---
-layout: default 
 title: Archive
+layout: page 
 comments: no
 ---
 
