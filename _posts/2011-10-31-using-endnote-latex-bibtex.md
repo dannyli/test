@@ -17,10 +17,10 @@ tags:
 ## 一、EndNote 的配置
 ---
 
-* 下载[这个文件]({{ site.url }}/assets/downloads/IEEE Trans.ens)，然后把它放到 `%Userprofile%\Documents\EndNote\Styles` 文件夹中 (如果没有该文件夹则自行创建)。我这里使用的是 IEEETrans 兼容的格式，如果需要其他格式，得修改 style template。
+* 下载[这个文件]({{ site.url }}/assets/downloads/IEEE BibTeX Export.ens)，然后把它放到 `%Userprofile%\Documents\EndNote\Styles` 文件夹中 (如果没有该文件夹则自行创建)。我这里使用的是 IEEETrans 兼容的格式，如果需要其他格式，得修改 style template。
 * 打开 EndNote，从菜单栏里选取 **Edit -> Output Styles -> Open Style Manager**
-* 找到并勾选第一步中的 IEEE Trans，关闭该窗口
-* 从菜单栏中 **Edit -> Output Styles** 选刚增加的 IEEE Trans
+* 找到并勾选第一步中的 IEEE BibTeX Export，关闭该窗口
+* 从菜单栏中 **Edit -> Output Styles** 选刚增加的 IEEE BibTeX Export
 * 编辑条目：双击需要引用的参考资料，在 Label 一栏里填一个唯一标识符。我的 label 命名习惯是 "第一作者姓氏（或全名）+发表年份+一个字母"。最后的字母是从a往后递增，为了区别同一作者在同一年发的不同文章。比如 Danny Li 在 2011 年发的第一篇文章，label 就是 dannyli2011a。
 * 在 EndNote 主窗口中选中所有需要引用的参考资料，菜单 **File -> Export**，Output Style 选 IEEE Trans，保存为一个 txt 文档到 LaTeX 的工作目录中。然后更改文件后缀名为 .bib，如 dannybib.bib；
 
