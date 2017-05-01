@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "适合于 IEEE Transcations 的 EndNote 模板"
+title:  "适合于 IEEE Transactions 的 EndNote 模板"
 date:   2012-03-03 14:17:59
 categories: 
 - Notes 
@@ -13,7 +13,7 @@ tags:
 ## 基于 EndNote 自带的 IEEE.ens 修改模板 ##
 ---
 
-EndNote 自带 IEEE 风格模板。但是对于一些常用的 IEEE Transactions，风格可能与默认的不太一样。 这里以 IEEE Transcations on Energy Conversion 为例子，介绍如何更改模板。
+EndNote 自带 IEEE 风格模板。但是对于一些常用的 IEEE Transactions，风格可能与默认的不太一样。 这里以 IEEE Transactions on Energy Conversion 为例子，介绍如何更改模板。
 
 - 复制 `%ProgramFiles%\EndNote X6\Styles` (64位系统下为 `%ProgramFiles(x86)%\EndNote X6\Styles`) 里的 IEEE.ens 文件到 `%Userprofile%\Document\EndNote\Styles` 中，并改名为 `IEEE Trans.ens`
 - 打开 Endnote, 从菜单栏中选择 `Edit -> Output Styles -> Open Style Manager...`
