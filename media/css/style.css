@@ -58,10 +58,10 @@
 
 
 @media screen and (max-width: 1500px) {
-.content{font-size:38px;line-height:48px;}
+.content{font-size:42px;line-height:66px;font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
 }
 @media screen and (min-width: 1501px) {
-.content{font-size:16px;line-height:24px;}
+.content{font-size:16px;line-height:24px;font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
 }
 
 
