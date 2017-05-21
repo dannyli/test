@@ -56,6 +56,23 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
+
+@media screen and (max-width: 1500px) {
+body{
+  font-size:18px;
+  word-spacing:1px;
+	margin-left:auto;
+  margin-right:auto;
+	font-family:"Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+	color:#000000;
+	background-color:#ffffff;
+	/*background-image: url("/assets/images/wt.jpg");
+	background-attachment: fixed;
+	background-size: 100%;*/
+
+	}
+}
+@media screen and (min-width: 1501px) {
 body{
   font-size:14px;
   word-spacing:1px;
@@ -69,6 +86,10 @@ body{
 	background-size: 100%;*/
 
 	}
+}
+
+
+
 *{padding:0;margin: 0;border:none;outline:none;}
 a{color:#2e9afe;text-decoration:none;}
 a:hover{color:#333333;text-decoration:underline;}
@@ -93,11 +114,11 @@ background-color: #f0f0f0;
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1500px) {
 blockquote p{margin:0;padding:.5em 0;}
 #container{margin:2em auto;display:block;padding:1em 2em;background-color:#ffffff;;font-size:16px;}
 }
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 1501px) {
 blockquote p{margin:0;width:600px;padding:.5em 0;}
 #container{width:600px;margin:2em auto;display:block;padding:1em 2em;background-color:#ffffff;}
 }
