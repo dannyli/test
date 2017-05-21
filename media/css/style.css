@@ -91,7 +91,7 @@ background-color: #f0f0f0;
 
 @media screen and (max-width: 1500px) {
 blockquote p{margin:0;padding:.5em 0;}
-#container{margin:2em auto;display:block;padding:1em 2em;background-color:#ffffff;;font-size:16px;}
+#container{margin:2em auto;display:block;padding:1em 2em;background-color:#ffffff;}
 }
 @media screen and (min-width: 1501px) {
 blockquote p{margin:0;width:600px;padding:.5em 0;}
