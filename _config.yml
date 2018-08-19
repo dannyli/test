@@ -1,7 +1,7 @@
 markdown: kramdown
 kramdown: 
 permalink: /:categories/:title/
-url: http://danny.li
+url: https://danny.li
 author: Danny Li
 highlighter: rouge
 #safe: true
